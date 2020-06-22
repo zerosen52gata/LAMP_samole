@@ -10,7 +10,7 @@ try {
     exit();
 }
 
-$sql = "select * from user"
+$sql = "select * from sample"
 $result = $dbh->query($sql);
 ?>
 
