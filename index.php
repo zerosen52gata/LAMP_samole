@@ -87,7 +87,15 @@ try {
 
 	</div>
 
+	<?php if($_GET['fg'] == 1) { ?>
 
+	<p> Success</p>
+
+	<<?php }else if($_GET['fg'] == 1) {?>
+
+	<p>momo</p>
+
+	<?php }?>
 
 	<div class="container">
 
@@ -285,8 +293,6 @@ try {
 
 				<th>Age</th>
 
-				<th>-</th>
-
 			</tr>
 
 		</thead>
@@ -306,7 +312,7 @@ try {
 					<td>
 					 
 					 <form action="./delete.php" method="GET">
-					 	<input class ="d-none" type="text" name="id" value="<?php echo "$value[id]; ?>">
+					 	<input class ="d-none" type="text" name="id" value="<?php echo "$value[id];" ?>">
 					 	<button class="btn btn-danger" type="submit">Delete</button>
 
 					</td>
