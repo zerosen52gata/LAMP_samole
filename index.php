@@ -306,7 +306,7 @@ try {
 					<td>
 					 
 					 <form action="./delete.php" method="GET">
-					 	<input class ="d-none" type="text" name="id" value="<?php echo "$value[id]"; ?>">
+					 	<input class ="d-none" type="text" name="id" value="<?php echo "$value[id]; ?>">
 					 	<button class="btn btn-danger" type="submit">Delete</button>
 
 					</td>
