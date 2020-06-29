@@ -89,12 +89,21 @@ try {
 
 	<?php if($_GET['fg'] == 1) { ?>
 
-	<p> Success</p>
+		<div class="alert alert-succese alert-dismissible fade show" role="alert">
+ Processing complete<strong>Succese!</strong>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 
 	<<?php }else if($_GET['fg'] == 1) {?>
 
-	<p>momo</p>
-
+		<div class="alert alert-denger alert-dismissible fade show" role="alert">
+		Processing complete<strong>Failed!</strong>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 	<?php }?>
 
 	<div class="container">
