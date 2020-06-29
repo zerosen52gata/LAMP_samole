@@ -89,14 +89,14 @@ try {
 
 	<?php if($_GET['fg'] == 1) { ?>
 
-		<div class="alert alert-succese alert-dismissible fade show" role="alert">
+		<div class="alert alert-success alert-dismissible fade show" role="alert">
  Processing complete<strong>Succese!</strong>
   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
 
-	<<?php }else if($_GET['fg'] == 1) {?>
+	<<?php }else if($_GET['fg'] == 1) { ?>
 
 		<div class="alert alert-denger alert-dismissible fade show" role="alert">
 		Processing complete<strong>Failed!</strong>
